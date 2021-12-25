@@ -1,0 +1,32 @@
+-- record toc-item:
+caption title:
+string url:
+toc-item list children:
+
+-- ftd.column h0:
+caption title:
+optional body body:
+width: fill
+padding-horizontal: 90
+
+--- ftd.text:
+text: $title
+size: 40
+color: black
+style: bold
+padding-bottom: 24
+
+--- markdown:
+if: $body is not null
+body: $body
+
+-- ftd.text markdown:
+body body:
+optional boolean collapsed:
+optional caption title:
+optional boolean two_columns:
+text: $body
+size: 25
+line-height: 40
+color: #4d4d4d
+padding-bottom: 34
