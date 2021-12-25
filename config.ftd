@@ -1,0 +1,31 @@
+-- import: lib
+
+-- string title: Addresses at The Parliament of Religions
+
+-- string author: Swami Vivekananda
+
+-- string sidebar-title: Content
+
+-- string quote-text: Arise, awake, and stop not till the goal is reached
+
+-- lib.toc-item list toc:
+
+-- toc:
+$processor$: toc
+
+- ../index.html
+  Introduction
+- ../response-to-welcome/
+  Response to Welcome
+- ../why-we-disagree/
+  Why we disagree
+- ../paper-on-hinduism/
+  Paper on Hinduism
+- ../religion-not-the-crying-need-of-india/
+  Religion not the Crying need of India
+- ../buddhism-the-fulfilment-of-hinduism/
+  Buddhism, the Fulfilment of Hinduism
+- ../address-at-the-final-session/
+  Address at the Final Session
+
+

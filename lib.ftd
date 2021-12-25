@@ -1,6 +1,7 @@
--- record link-text:
+-- record toc-item:
 caption title:
-string link:
+string url:
+toc-item list children:
 
 -- ftd.column h0:
 caption title:

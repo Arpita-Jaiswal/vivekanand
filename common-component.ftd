@@ -1,4 +1,4 @@
--- import: lib-data
+-- import: config
 
 -- ftd.column page:
 width: fill
@@ -33,7 +33,7 @@ height: percent 100
 overflow-x: auto
 overflow-y: auto
 
---- ftd.text: $lib-data.sidebar-title
+--- ftd.text: $config.sidebar-title
 padding-bottom: 50
 color: white
 style: semi-bold
@@ -44,8 +44,8 @@ align: center
 width: fill
 
 --- ftd.text: $obj.title
-$loop$: $lib-data.toc as $obj
-link: $obj.link
+$loop$: $config.toc as $obj
+link: $obj.url
 padding-vertical: 15
 color: #893b2d
 
@@ -65,7 +65,7 @@ align: center
 width: 600
 align: center
 
---- ftd.text: $lib-data.title
+--- ftd.text: $config.title
 color: white
 size: 60
 text-align: center
@@ -73,7 +73,7 @@ background-color: rgba(205, 50, 50, 0.37)
 
 --- container: ftd.main
 
---- ftd.text: $lib-data.author
+--- ftd.text: $config.author
 color: white
 position: right
 
@@ -85,6 +85,6 @@ width: fill
 background-color: #5E392E
 padding-left: 10
 
---- ftd.text: $lib-data.quote-text
+--- ftd.text: $config.quote-text
 color: white
 
