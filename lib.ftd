@@ -11,7 +11,7 @@ padding-horizontal: 90
 
 --- ftd.text:
 text: $title
-size: 36
+size: 40
 color: black
 style: bold
 padding-bottom: 24
@@ -26,6 +26,7 @@ optional boolean collapsed:
 optional caption title:
 optional boolean two_columns:
 text: $body
-size: 15
+size: 25
+line-height: 40
 color: #4d4d4d
 padding-bottom: 34

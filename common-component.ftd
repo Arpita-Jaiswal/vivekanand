@@ -37,7 +37,7 @@ overflow-y: auto
 padding-bottom: 50
 color: white
 style: semi-bold
-size: 25
+size: 30
 
 --- ftd.column:
 align: center
@@ -47,6 +47,7 @@ width: fill
 $loop$: $config.toc as $obj
 link: $obj.url
 padding-vertical: 15
+size: 20
 color: #893b2d
 
 
