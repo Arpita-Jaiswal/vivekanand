@@ -1,3 +1,6 @@
 -- import: fpm
 
 -- fpm.package: arpita-jaiswal/vivekanand
+language: en
+domain: https://arpita-jaiswal.github.io/vivekanand/
+translation: arpita-jaiswal/vivekanand-hi
