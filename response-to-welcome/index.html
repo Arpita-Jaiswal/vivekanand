@@ -4,7 +4,19 @@
     <meta charset="UTF-8"><base href="/vivekanand/">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>ftd</title>
-    <script type="ftd" id="ftd-data">
+
+    <script type="ftd" id="ftd-data-message">
+        {
+  "fpm#document-id": {
+    "value": "response-to-welcome.ftd",
+    "dependencies": {}
+  }
+}
+    </script>
+    <script type="ftd" id="ftd-external-children-message">
+        {}
+    </script>
+    <script type="ftd" id="ftd-data-main">
         {
   "@body@0,0": {
     "value": "Sisters and Brothers of America,\n\nIt fills my heart with joy unspeakable to rise in response to the warm and cordial welcome which you have given us.\nI thank you in the name of the most ancient order of monks in the world; I thank you in the name of the mother of\nreligions; and I thank you in the name of millions and millions of Hindu people of all classes and sects.\n\n\nMy thanks, also, to some of the speakers on this platform who, referring to the delegates from the Orient, have told you\nthat these men from far-off nations may well claim the honour of bearing to different lands the idea of toleration.\nI am proud to belong to a religion which has taught the world both tolerance and universal acceptance. We believe not\nonly in universal toleration, but we accept all religions as true. I am proud to belong to a nation which has sheltered\nthe persecuted and the refugees of all religions and all nations of the earth. I am proud to tell you that we have\ngathered in our bosom the purest remnant of the Israelites, who came to Southern India and took refuge with us in the\nvery year in which their holy temple was shattered to pieces by Roman tyranny. I am proud to belong to the religion\nwhich has sheltered and is still fostering the remnant of the grand Zoroastrian nation. I will quote to you, brethren,\na few lines from a hymn which I remember to have repeated from my earliest boyhood, which is every day repeated by\nmillions of human beings: “As the different streams having their sources in different places all mingle their water in\nthe sea, so, O Lord, the different paths which men take through different tendencies, various though they appear,\ncrooked or straight, all lead to Thee.”\n\n\nThe present convention, which is one of the most august assemblies ever held, is in itself a vindication, a declaration\nto the world of the wonderful doctrine preached in the Gita: “Whosoever comes to Me, through whatsoever form, I reach\nhim; all men are struggling through paths which in the end lead to me.” Sectarianism, bigotry, and its horrible\ndescendant, fanaticism, have long possessed this beautiful earth. They have filled the earth with violence, drenched it\noften and often with human blood, destroyed civilisation and sent whole nations to despair. Had it not been for these\nhorrible demons, human society would be far more advanced than it is now. But their time is come; and I fervently hope\nthat the bell that tolled this morning in honour of this convention may be the death-knell of all fanaticism, of all\npersecutions with the sword or with the pen, and of all uncharitable feelings between persons wending their way to the\nsame goal.",
@@ -48,7 +60,7 @@
   }
 }
     </script>
-    <script type="ftd" id="ftd-external-children">
+    <script type="ftd" id="ftd-external-children-main">
         {
   "body-id-external:0": [
     {
@@ -60,6 +72,7 @@
   ]
 }
     </script>
+
     <script>
         // all ftd_utils are meant to be pure functions only: they can only depend on the
 // input passed, not on closures or global data etc
@@ -535,6 +548,7 @@ window.ftd = (function () {
 })();
 
     </script>
+
     <style>
         body {
             margin: 0;
@@ -664,12 +678,15 @@ window.ftd = (function () {
             margin: 0;
         }
 
-        </style>
+    </style>
 
 </head>
-    <body>
+<body>
 
-        <div data-id="main:root" style="align-items: flex-start; align-self: center; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; display: flex; flex-direction: column; flex-wrap: wrap; height: 100%; justify-content: flex-start; margin-bottom: auto; margin-top: auto; white-space: initial; width: 100%" class="ft_md"><div data-id="0:main" style="align-items: flex-start; align-self: flex-start; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; white-space: initial; width: 100%" class="ft_md"><div data-id="0,0:main" style="align-items: flex-start; background-image: url(https://i.imgur.com/7dRRqmI.png); background-position: center; background-size: cover; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; display: flex; flex-direction: column; flex-wrap: nowrap; height: 100%; justify-content: flex-start; left: 0; overflow-x: auto; overflow-y: auto; padding-bottom: 100px; padding-left: 50px; padding-right: 50px; padding-top: 50px; position: fixed; top: 0; white-space: initial; width: 250px" class="ft_md"><div data-id="0,0,0:main" style="align-self: flex-start; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; color: rgba(255,255,255,1); font-size: 30px; font-weight: 600; padding-bottom: 50px; text-align: left; white-space: initial" class="ft_md">Content</div>
+<div id="message"><div data-id="message:root" style="align-items: flex-start; align-self: center; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; display: flex; flex-direction: column; flex-wrap: wrap; height: 100%; justify-content: flex-start; margin-bottom: auto; margin-top: auto; white-space: initial; width: 100%" class="ft_md"><div data-id="0:message" data-spacing="margin-left:10px" style="align-items: flex-start; align-self: flex-end; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; margin-bottom: auto; margin-left: auto; margin-top: auto; white-space: initial" class="ft_md"><div data-id="0,0:message" style="align-self: flex-start; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; font-weight: 400; text-align: left; white-space: initial" class="ft_md">Other available languages:</div>
+<a data-id="0,1:message" href="https://arpita-jaiswal.github.io/vivekanand-hi/response-to-welcome/" style="align-self: flex-start; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; cursor: pointer; font-weight: 400; margin-left: 10px; text-align: left; white-space: initial" class="ft_md">hi</a>
+<a data-id="0,2:message" href="https://arpita-jaiswal.github.io/vivekanand-gu/response-to-welcome/" style="align-self: flex-start; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; cursor: pointer; font-weight: 400; margin-left: 10px; text-align: left; white-space: initial" class="ft_md">gu</a></div></div></div>
+<div id="main"><div data-id="main:root" style="align-items: flex-start; align-self: center; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; display: flex; flex-direction: column; flex-wrap: wrap; height: 100%; justify-content: flex-start; margin-bottom: auto; margin-top: auto; white-space: initial; width: 100%" class="ft_md"><div data-id="0:main" style="align-items: flex-start; align-self: flex-start; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; white-space: initial; width: 100%" class="ft_md"><div data-id="0,0:main" style="align-items: flex-start; background-image: url(https://i.imgur.com/7dRRqmI.png); background-position: center; background-size: cover; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; display: flex; flex-direction: column; flex-wrap: nowrap; height: 100%; justify-content: flex-start; left: 0; overflow-x: auto; overflow-y: auto; padding-bottom: 100px; padding-left: 50px; padding-right: 50px; padding-top: 50px; position: fixed; top: 0; white-space: initial; width: 250px" class="ft_md"><div data-id="0,0,0:main" style="align-self: flex-start; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; color: rgba(255,255,255,1); font-size: 30px; font-weight: 600; padding-bottom: 50px; text-align: left; white-space: initial" class="ft_md">Content</div>
 <div data-id="0,0,1:main" style="align-items: flex-start; align-self: center; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; margin-bottom: auto; margin-top: auto; white-space: initial; width: 100%" class="ft_md"><a data-id="0,0,1,0:main" href="index.html" style="align-self: flex-start; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; color: rgba(137,59,45,1); cursor: pointer; font-size: 20px; font-weight: 400; padding-bottom: 15px; padding-top: 15px; text-align: left; white-space: initial" class="ft_md">Introduction</a>
 <a data-id="0,0,1,1:main" href="response-to-welcome/" style="align-self: flex-start; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; color: rgba(137,59,45,1); cursor: pointer; font-size: 20px; font-weight: 400; padding-bottom: 15px; padding-top: 15px; text-align: left; white-space: initial" class="ft_md">Response to Welcome</a>
 <a data-id="0,0,1,2:main" href="why-we-disagree/" style="align-self: flex-start; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; color: rgba(137,59,45,1); cursor: pointer; font-size: 20px; font-weight: 400; padding-bottom: 15px; padding-top: 15px; text-align: left; white-space: initial" class="ft_md">Why we disagree</a>
@@ -706,15 +723,19 @@ horrible demons, human society would be far more advanced than it is now. But th
 that the bell that tolled this morning in honour of this convention may be the death-knell of all fanaticism, of all
 persecutions with the sword or with the pen, and of all uncharitable feelings between persons wending their way to the
 same goal.</p>
-</div></div></div></div></div></div>
+</div></div></div></div></div></div></div>
 
-
-    <script>
-        window.ftd.init(
-            "main",
-            JSON.parse(document.getElementById("ftd-data").innerText),
-            JSON.parse(document.getElementById("ftd-external-children").innerText)
-        );
-    </script>
-    </body>
+<script>
+    window.ftd.init(
+        "message",
+        JSON.parse(document.getElementById("ftd-data-message").innerText),
+        JSON.parse(document.getElementById("ftd-external-children-message").innerText)
+    );
+    window.ftd.init(
+        "main",
+        JSON.parse(document.getElementById("ftd-data-main").innerText),
+        JSON.parse(document.getElementById("ftd-external-children-main").innerText)
+    );
+</script>
+</body>
 </html>
