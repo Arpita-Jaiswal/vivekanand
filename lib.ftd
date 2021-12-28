@@ -15,6 +15,7 @@ size: 40
 color: black
 style: bold
 padding-bottom: 24
+font: apple-system
 
 --- markdown:
 if: $body is not null
@@ -26,7 +27,9 @@ optional boolean collapsed:
 optional caption title:
 optional boolean two_columns:
 text: $body
-size: 25
-line-height: 40
+size: 19
+line-height: 30
 color: #4d4d4d
 padding-bottom: 34
+font: apple-system
+

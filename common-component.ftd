@@ -27,8 +27,8 @@ position: top
 
 -- ftd.column side-bar:
 background-image: https://i.imgur.com/7dRRqmI.png
-width: 250
-padding-horizontal: 50
+width: 300
+padding-horizontal: 20
 padding-top: 50
 padding-bottom: 100
 height: percent 100
@@ -39,21 +39,22 @@ top: 0
 height: calc 100vh - 0px
 
 --- ftd.text: $config.sidebar-title
-padding-bottom: 50
+padding-bottom: 20
 color: white
 style: semi-bold
-size: 30
+size: 18
+font: apple-system
 
 --- ftd.column:
-align: center
 width: fill
 
 --- ftd.text: $obj.title
 $loop$: $config.toc as $obj
 link: $obj.url
-padding-vertical: 15
+padding-vertical: 10
 size: 20
 color: #893b2d
+font: apple-system
 
 
 
@@ -76,12 +77,14 @@ color: white
 size: 60
 text-align: center
 background-color: rgba(205, 50, 50, 0.37)
+font: apple-system
 
 --- container: ftd.main
 
 --- ftd.text: $config.author
 color: white
 position: right
+font: apple-system
 
 
 
@@ -93,4 +96,5 @@ padding-left: 10
 
 --- ftd.text: $config.quote-text
 color: white
+font: apple-system
 
