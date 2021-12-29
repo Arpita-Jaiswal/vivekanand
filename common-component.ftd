@@ -67,10 +67,12 @@ width: fill
 height: 250
 padding-left: 25
 align: center
+region: h0
 
 --- ftd.column:
 width: 600
 align: center
+region: title
 
 --- ftd.text: $config.title
 color: white
