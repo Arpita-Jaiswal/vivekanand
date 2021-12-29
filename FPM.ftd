@@ -3,8 +3,8 @@
 -- fpm.package: arpita-jaiswal.github.io/vivekanand
 language: en
 zip: github.com/arpita-jaiswal/vivekanand/archive/refs/heads/main.zip
-translation: arpita-jaiswal.github.io/vivekanand-hi
-translation: arpita-jaiswal.github.io/vivekanand-gu
+/translation: arpita-jaiswal.github.io/vivekanand-hi
+/translation: arpita-jaiswal.github.io/vivekanand-gu
 
 -- fpm.font: apple-system
 woff2: https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2
