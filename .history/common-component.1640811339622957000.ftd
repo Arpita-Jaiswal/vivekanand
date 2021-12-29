@@ -1,0 +1,102 @@
+-- import: config
+
+-- ftd.row page:
+width: fill
+open: body-id
+
+--- side-bar:
+
+
+--- container: ftd.main
+
+--- ftd.column:
+width: fill
+
+--- header:
+
+--- quote:
+
+--- ftd.column:
+width: fill
+padding: 50
+id: body-id
+position: top
+
+
+
+
+-- ftd.column side-bar:
+background-image: https://i.imgur.com/7dRRqmI.png
+width: 300
+padding-horizontal: 20
+padding-top: 50
+padding-bottom: 100
+height: percent 100
+overflow-x: auto
+overflow-y: auto
+sticky: true
+top: 0
+height: calc 100vh - 0px
+
+--- ftd.text: $config.sidebar-title
+padding-bottom: 20
+color: white
+style: semi-bold
+size: 18
+font: apple-system
+
+--- ftd.column:
+width: fill
+
+--- ftd.text: $obj.title
+$loop$: $config.toc as $obj
+link: $obj.url
+padding-vertical: 10
+size: 20
+color: #893b2d
+font: apple-system
+
+
+
+
+
+
+-- ftd.column header:
+background-image: https://www.vifindia.org/sites/default/files/vivekananda.jpg
+width: fill
+height: 250
+padding-left: 25
+align: center
+region: h0
+
+--- ftd.column:
+width: 600
+align: center
+region: title
+
+--- ftd.text: $config.title
+color: white
+size: 60
+text-align: center
+background-color: rgba(205, 50, 50, 0.37)
+font: apple-system
+
+--- container: ftd.main
+
+--- ftd.text: $config.author
+color: white
+position: right
+font: apple-system
+
+
+
+
+-- ftd.row quote:
+width: fill
+background-color: #5E392E
+padding-left: 10
+
+--- ftd.text: $config.quote-text
+color: white
+font: apple-system
+
