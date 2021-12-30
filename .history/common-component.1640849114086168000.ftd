@@ -77,7 +77,6 @@ color: white
 size: 60
 text-align: center
 background-color: rgba(205, 50, 50, 0.37)
-font: apple-system
 region: h0
 
 --- container: ftd.main
