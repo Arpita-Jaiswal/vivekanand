@@ -1,5 +1,5 @@
--- import: common-component as cc
--- import: lib
+-- import: arpita-jaiswal.github.io/vivekanand/common-component as cc
+-- import: arpita-jaiswal.github.io/vivekanand/lib
 
 
 -- cc.page:
