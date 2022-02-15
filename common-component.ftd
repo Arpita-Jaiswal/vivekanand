@@ -2,7 +2,8 @@
 
 -- ftd.row page:
 width: fill
-open: body-id
+open: true
+append-at: body-id
 
 --- side-bar:
 
