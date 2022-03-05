@@ -1,4 +1,6 @@
 -- import: arpita-jaiswal.github.io/vivekanand/config
+-- import: fifthtry.github.io/translation-components as doc
+-- import: fpm
 
 -- ftd.row page:
 width: fill
@@ -22,6 +24,25 @@ width: fill
 padding: 50
 id: body-id
 position: top
+
+--- ftd.column:
+width: fill
+height: fill
+if: $fpm.translation-status is not null
+
+--- doc.uptodate:
+if: $fpm.translation-status == UptoDate
+
+--- doc.missing:
+if: $fpm.translation-status == Missing
+
+--- doc.nevermarked:
+if: $fpm.translation-status == NeverMarked
+
+--- doc.outdated:
+if: $fpm.translation-status == Outdated
+
+--- container: ftd.main
 
 
 
