@@ -6,6 +6,8 @@ zip: github.com/arpita-jaiswal/vivekanand/archive/refs/heads/main.zip
 translation: arpita-jaiswal.github.io/vivekanand-hi
 translation: arpita-jaiswal.github.io/vivekanand-gu
 
+-- fpm.dependency: fifthtry.github.io/translation-components
+
 -- fpm.font: apple-system
 woff2: https://fonts.gstatic.com/s/opensans/v27/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2
 weight: 300
